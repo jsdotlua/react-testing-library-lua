@@ -52,6 +52,7 @@ local unhandledEventTypes = {
 			{ fireEventName = "pointerLeave" },
 		},
 		elementType = "TextButton",
+		init = nil,
 	},
 }
 -- ROBLOX deviation END
