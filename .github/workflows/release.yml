@@ -82,7 +82,7 @@ jobs:
       - name: Login to wally
         run: wally login --project-path build/wally --token ${{ secrets.WALLY_ACCESS_TOKEN }}
 
-      - name: Publish diff-sequences to wally
+      - name: Publish to wally
         run: wally publish --project-path build/wally
 
   create-release:
